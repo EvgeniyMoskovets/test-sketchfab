@@ -1,12 +1,20 @@
-body {
-  padding: 100px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-#api-frame {
+.title {
+  text-align: center;
+}
+
+.sketchfab {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 90%;
   width: 90%;
+  margin-top: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(255, 0, 0, 1);
 }
